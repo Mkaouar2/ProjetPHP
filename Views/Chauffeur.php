@@ -60,6 +60,7 @@ if(isset($_GET['login'])){
                                 <input type="email" class="form-control" name="email" required>
                             </div>
                             <button type="submit" class="btn btn-primary">Modifier chauffeur</button>
+                            <a href="SignUp.php" class="btn btn-primary">Ajouter utilisateur</a>
                         </form>
                     </div>
                 </div>
