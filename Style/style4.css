@@ -1,0 +1,77 @@
+/* Styles personnalisés pour les titres de section */
+.section-title {
+    margin-bottom: 30px; /* Espace en bas des titres */
+    font-size: 24px; /* Taille de police des titres */
+    color: #333; /* Couleur de texte sombre */
+}
+
+/* Styles personnalisés pour les cartes */
+.card {
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.card-body {
+    padding: 30px; /* Espacement interne */
+}
+
+/* Styles personnalisés pour les formulaires */
+.form-group {
+    margin-bottom: 20px; /* Espace en bas de chaque groupe de formulaire */
+}
+
+.form-group label {
+    font-weight: bold; /* Police en gras pour les labels */
+    color: #333; /* Couleur de texte sombre */
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Bordure légèrement grise */
+    border-radius: 5px; /* Coins arrondis */
+    transition: border-color 0.3s ease; /* Transition fluide de la couleur de la bordure */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Couleur de bordure bleue lorsqu'en focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Légère ombre bleue */
+}
+
+textarea.form-control {
+    resize: none; /* Désactivation du redimensionnement pour les zones de texte */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Couleur de fond bleue pour les boutons primaires */
+    border-color: #007bff; /* Couleur de bordure bleue */
+    transition: background-color 0.3s ease; /* Transition fluide de la couleur de fond */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Couleur de fond bleue plus foncée au survol */
+    border-color: #0056b3; /* Couleur de bordure bleue plus foncée au survol */
+}
+/* Styles pour la table */
+.table {
+    border-collapse: collapse; /* Fusion des bordures de cellules */
+    width: 100%;
+}
+
+.table th,
+.table td {
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.table th {
+    background-color: #007bff; /* Couleur de fond des en-têtes de colonnes */
+    color: #fff; /* Couleur de texte des en-têtes de colonnes */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6; /* Bordure de cellule */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1); /* Couleur de fond alternée pour les lignes impaires */
+}
