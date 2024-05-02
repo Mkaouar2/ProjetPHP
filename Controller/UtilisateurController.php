@@ -45,7 +45,7 @@ class UtilisateurController {
                 mysqli_close($conn);
             }
         } else {
-            echo "Compte n'existe pas ou votre code est incorrecte";
+            echo"<div class='alert alert-danger' role='alert'>"."Erreur :"."Compte n'existe pas ou votre code est incorrecte"."</div>";
         }
     }
 
